@@ -1,0 +1,15 @@
+PATTERNS
+NounRoot [>:>] NounInfl
+
+LEXICON NounRoot
+dog
+cat
+bus
+fox
+watch
+wish
+quiz
+
+LEXICON NounInfl
+<n><sg>:
+<n><pl>:{S}

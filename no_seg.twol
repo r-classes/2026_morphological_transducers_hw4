@@ -1,0 +1,7 @@
+Alphabet
+  %>:0
+;
+
+Rules
+"> realisation"
+%>:0 <=> _ ;

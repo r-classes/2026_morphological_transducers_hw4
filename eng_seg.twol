@@ -1,0 +1,17 @@
+Alphabet
+  a b c d e f g h i j k l m n o p q r s t u v w x y z
+  %{S%}:es %{S%}:s
+  %>:0 %>:%>
+;
+
+Rules
+"{S} z _ realisation"
+%{S%}:zes <=> z %>: _ ;
+
+"{S} es realisation"
+%{S%}:es <=> s %>: _ ;
+             x %>: _ ;
+             c h %>: _ ;
+             s h %>: _ ;
+"> realisation"
+%>:0 <=> _ .#.;
